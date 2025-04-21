@@ -1,0 +1,22 @@
+.relics-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .relic-card {
+    background: #1a1a1a;
+    color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  .relic-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+  }
+  
